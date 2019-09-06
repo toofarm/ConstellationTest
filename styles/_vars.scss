@@ -1,0 +1,36 @@
+/*************
+******* APP COLORS
+*************/
+
+$bodyGrey: #EEE;
+$mainGrey: #DDD;
+$textBlack: #222;
+
+/*************
+******* ANIMATIONS
+*************/
+
+@-moz-keyframes spin {
+    from {
+        transform:rotateY(0deg);
+    }
+    to {
+        transform:rotateY(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    from {
+        transform:rotateY(0deg);
+    }
+    to {
+        transform:rotateY(360deg);
+    }
+}
+@keyframes spin {
+    from {
+        transform:rotateY(0deg);
+    }
+    to {
+        transform:rotateY(360deg);
+    }
+}
